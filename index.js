@@ -7,7 +7,7 @@ const app = express();
   app.use(express.static(path.join(__dirname, 'public')))
   app.get('/api/users', (req, res) => {
     // Generate some passwords
-    const users = ["Miri","Yonah", "aaaron"]
+    const users = ["Miri Stoner","Yonah", "aaaron"]
 
 
     // Return them as json
